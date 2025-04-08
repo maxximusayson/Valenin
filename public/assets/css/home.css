@@ -1,0 +1,108 @@
+/* public/assets/css/home.css */
+
+.hero {
+    background: url('/images/bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    z-index: 0;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the 0.4 for more/less dim */
+    z-index: 1;
+  }
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 100%;
+    padding: 0 80px;
+    position: relative;
+    z-index: 2; /* Bring content above the overlay */
+  }
+  
+  .hero-box {
+    background: linear-gradient(90deg, rgba(104, 211, 145, 0.6), rgba(36, 195, 107, 0.6));
+    width: 700px;
+    height: 550px;
+    border-radius: 20px;
+    margin-right: 60px;
+    flex-shrink: 0;
+    backdrop-filter: blur(6px); /* Optional: soft blur effect behind the box */
+    
+  }
+  
+  
+  .hero-content {
+    color: white;
+    font-size: 30px;
+    max-width: 500px;
+  }
+  
+  .hero-content h1 {
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .hero-content .highlight {
+    background: linear-gradient(to right, #00ff66, #1cc58f); /* Your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+  
+  
+  .hero-button {
+    margin-top: 45px;
+    display: inline-block;
+    background: linear-gradient(to right, rgba(8, 79, 63, 0.8), rgba(27, 141, 112, 0.8));
+    color: white;
+    padding: 12px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20px;
+    align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(202, 202, 202, 0.2);
+    backdrop-filter: blur(4px); /* Optional blur effect behind button */
+  }
+  
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+  
+    .hero-box {
+      margin: 0 0 20px 0;
+      width: 300px;
+      height: 250px;
+    }
+  
+    .hero-content {
+      text-align: center;
+    }
+  }
+  

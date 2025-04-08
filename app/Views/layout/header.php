@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Valenin</title>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="<?= base_url('assets/css/home.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/navbar.css') ?>">
 </head>
 <body>

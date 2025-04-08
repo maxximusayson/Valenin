@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #23C363;
+    background: linear-gradient(to right, #084F3F, #1B8D70);
     padding: 20px 60px;
     color: white;
     position: relative;
