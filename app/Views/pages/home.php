@@ -87,25 +87,26 @@
 
 
 
-<!-- about us section -->
-<section id="about" class="bg-[#9BBFB5] py-20">
-  <!-- Diamond with horizontal lines -->
-  <div class="flex justify-center items-center gap-8 px-20 py-6 bg-[#9BBFB5]">
-
-
+<!-- About Us Section -->
+<section id="about" class="bg-[#084F3F] py-20">
+  <!-- Decorative Divider with Diamonds -->
+  <div class="flex justify-center items-center gap-8 px-8 md:px-20 py-6">
+    
     <!-- Left Line with Diamond -->
     <div class="flex items-center w-[40%]">
-      <div class="w-2.5 h-2.5 rotate-45 mr-2" style="background-color: #084F3F;"></div>
-      <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
+      <div class="w-2.5 h-2.5 rotate-45 mr-2 bg-white"></div>
+      <div class="h-0.5 flex-1 bg-white"></div>
     </div>
 
     <!-- Right Line with Diamond -->
     <div class="flex items-center w-[40%] justify-end">
-      <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
-      <div class="w-2.5 h-2.5 rotate-45 ml-2" style="background-color: #084F3F;"></div>
+      <div class="h-0.5 flex-1 bg-white"></div>
+      <div class="w-2.5 h-2.5 rotate-45 ml-2 bg-white"></div>
     </div>
+    
   </div>
 </section>
+
 
 
 
@@ -174,7 +175,10 @@
 
 <!-- vision section -->
 
-<section class="bg-[#ffff] py-20">
+<section class="bg-gradient-to-b from-[#084F3F] via-[#0e6b55] to-[#169477] py-20">
+  <!-- Your content here -->
+</section>
+
   <!-- Diamond with horizontal lines -->
 
 
@@ -202,7 +206,7 @@
 
 <!-- mission section -->
 
-<section class="bg-[#ffff] py-20">
+<section class="bg-gradient-to-t from-[#084F3F] via-[#0e6b55] to-[#169477] py-20">
   <!-- Mission Section -->
   <div class="relative w-full h-[670px] overflow-hidden">
     <!-- Background Image (on the left) -->
@@ -220,7 +224,7 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
       </div>
     </div>
   </div>
-</section>
+</section><br><br><br>
 
 
 <section class="relative bg-[#f3f4f6] py-20 px-6 overflow-hidden">
