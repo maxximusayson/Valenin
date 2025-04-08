@@ -221,16 +221,50 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 </section>
 
 
+<section class="relative bg-[#f3f4f6] py-20 px-6 overflow-hidden">
+  <!-- Background Shapes -->
+  <div class="absolute inset-0 z-0">
+    <!-- Layer 1 -->
+    <div class="absolute left-0 top-0 w-[60%] h-full bg-[#9BBFB5] opacity-60 clip-diagonal-1"></div>
+    <!-- Layer 2 -->
+    <div class="absolute left-0 top-0 w-[50%] h-full bg-[#9BBFB5] opacity-40 clip-diagonal-2"></div>
+    <!-- Layer 3 -->
+    <div class="absolute left-0 top-0 w-[40%] h-full bg-[#9BBFB5] opacity-25 clip-diagonal-3"></div>
 
+    <!-- VALENIN Text -->
+    <div class="absolute top-10 left-6 z-0">
+      <h1 class="text-6xl md:text-8xl font-extrabold italic bg-gradient-to-r from-white/70 to-[#f3f4f6] bg-clip-text text-transparent opacity-30 tracking-widest select-none">
+        VALENIN
+      </h1>
+    </div>
+  </div>
 
-<section class="bg-gradient-to-r from-[#9BBFB5] to-[#f3f4f6] py-16 px-4">
-  <div class="max-w-4xl mx-auto text-center">
-    <p class="text-lg md:text-xl text-gray-800 leading-relaxed">
-      We operate based on the team's specialization, expertise, knowledge, <br class="hidden md:block">
-      and the specific requirements of each project within the company.
+  <!-- Text Content -->
+  <div class="relative z-10 flex justify-end">
+    <p class="text-xl md:text-2xl text-gray-800 leading-relaxed font-medium max-w-4xl text-right mr-0 md:mr-20">
+      We operate based on the team's specialization, expertise, and knowledge, <br class="hidden md:block">
+      tailored to meet the specific requirements of each project within the company.
     </p>
   </div>
 </section>
+
+<style>
+  .clip-diagonal-1 {
+    clip-path: polygon(0 0, 80% 0, 60% 100%, 0% 100%);
+  }
+
+  .clip-diagonal-2 {
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  }
+
+  .clip-diagonal-3 {
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+  }
+</style>
+
+
+
+
 <br><br><br>
 
 
