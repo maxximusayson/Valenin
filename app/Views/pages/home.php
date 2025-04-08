@@ -59,8 +59,8 @@
       current: 0,
       images: [
         '/images/bg2.png',
-        '/images/bg3.jpg',
-        '/images/bg4.jpg'
+        '/images/hp4.png',
+        '/images/homepage4.jpeg'
       ],
       interval: null,
 
