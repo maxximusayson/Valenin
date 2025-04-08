@@ -395,7 +395,7 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
            a 15.9155 15.9155 0 0 1 0 31.831
            a 15.9155 15.9155 0 0 1 0 -31.831"
         fill="none"
-        stroke="white"
+        stroke="black"
         stroke-width="2"
         stroke-linecap="round"
         stroke-dasharray="100"
