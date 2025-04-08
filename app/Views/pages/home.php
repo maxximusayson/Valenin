@@ -273,9 +273,6 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 
 
 <!-- Team section -->
-
-
-
 <section class="bg-gradient-to-b from-[#9BBFB5] to-white py-16 px-4">
   <div class="max-w-6xl mx-auto text-center">
     <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Meet Our Team</h2>
@@ -289,12 +286,13 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
         <p class="italic text-sm text-gray-600">Founder</p>
       </div>
 
-      <!-- Member - Aina Mae Arroyo -->
-      <div class="flex flex-col items-center">
-        <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
-        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
-        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
-      </div>
+     <!-- Member - Aina Mae Arroyo -->
+<div class="flex flex-col items-center mt-10">
+  <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
+  <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
+  <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+</div>
+
 
       <!-- Member - Jenealle Mae Jimena -->
       <div class="flex flex-col items-center">
@@ -310,11 +308,13 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
         <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
       </div>
 
-      <div class="flex flex-col items-center">
-        <img src="/images/team/jenealle.jpg" alt="Jenealle Mae Jimena" class="w-48 h-64 object-cover rounded shadow-md">
-        <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
-        <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
-      </div>
+
+<div class="flex flex-col items-center mt-10">
+  <img src="/images/team/jenealle.jpg" alt="Jenealle Mae Jimena" class="w-48 h-64 object-cover rounded shadow-md">
+  <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
+  <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
+</div>
+
 
       <div class="flex flex-col items-center">
         <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
@@ -325,6 +325,7 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
   </div>
 </section>
 
+<?= view('layout/footer') ?>
 
 
 </body>
