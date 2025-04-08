@@ -7,13 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
-<body class="font-['Rubik']">
+<body class="font-['Rubik'] scroll-smooth">
+
 
 <?php $current = service('uri')->getSegment(1); ?>
 
-<nav class="bg-gradient-to-r from-[#06392e] to-[#157e63] text-white px-6 py-4 flex items-center justify-between">
+<nav class="bg-gradient-to-r from-[#06392e] to-[#157e63] text-white px-6 py-4 flex items-center justify-between fixed top-0 left-0 right-0 z-50 shadow-md">
+
 
 
   <!-- Logo -->
@@ -32,11 +35,16 @@
   <ul :class="open ? 'block' : 'hidden'" class="lg:flex space-y-3 lg:space-y-0 lg:space-x-8 mt-4 lg:mt-0 lg:items-center text-[20px] font-medium" id="navLinks">
 
   <li>
-    <a href="/" class="<?= $current === '' ? 'border-b-2 border-white pb-1 font-semibold' : 'hover:border-b-2 hover:border-white pb-1' ?>">HOME</a>
+  <a href="/" id="home-link" class="pb-1 <?= $current === '' ? 'border-b-2 border-white font-semibold' : 'hover:border-b-2 hover:border-white' ?>">HOME</a>
+
   </li>
   <li>
-    <a href="/about" class="<?= $current === 'about' ? 'border-b-2 border-white pb-1 font-semibold' : 'hover:border-b-2 hover:border-white pb-1' ?>">ABOUT</a>
-  </li>
+  <a href="#about" id="about-link" class="hover:border-b-2 hover:border-white pb-1">ABOUT</a>
+
+</li>
+
+
+
   <li>
     <a href="/career" class="<?= $current === 'career' ? 'border-b-2 border-white pb-1 font-semibold' : 'hover:border-b-2 hover:border-white pb-1' ?>">CAREER</a>
   </li>

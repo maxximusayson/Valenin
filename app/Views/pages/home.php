@@ -7,10 +7,11 @@
   <title>Hero with Carousel</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
 
-<body class="font-['Rubik'] bg-gray-100">
+<body class="font-['Rubik'] scroll-smooth bg-gray-100">
   <section class="relative w-full h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('/images/bg.jpg');">
     <div class="absolute inset-0 bg-black/50"></div>
 
@@ -87,45 +88,85 @@
 
 
 <!-- about us section -->
-
-<section class="bg-[#fff] py-20">
+<section id="about" class="bg-[#fff] py-20">
   <!-- Diamond with horizontal lines -->
   <div class="flex justify-center items-center gap-8 px-20 py-6" style="background-color:rgb(255, 255, 255);">
 
-  <!-- Left Line with Diamond -->
-  <div class="flex items-center w-[40%]">
-  <div class="w-2.5 h-2.5 rotate-45 mr-2" style="background-color: #084F3F;"></div>
-  <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
+    <!-- Left Line with Diamond -->
+    <div class="flex items-center w-[40%]">
+      <div class="w-2.5 h-2.5 rotate-45 mr-2" style="background-color: #084F3F;"></div>
+      <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
+    </div>
+
+    <!-- Right Line with Diamond -->
+    <div class="flex items-center w-[40%] justify-end">
+      <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
+      <div class="w-2.5 h-2.5 rotate-45 ml-2" style="background-color: #084F3F;"></div>
+    </div>
   </div>
 
-  <!-- Right Line with Diamond -->
-  <div class="flex items-center w-[40%] justify-end">
-  <div class="h-0.5 flex-1" style="background-color: #084F3F;"></div>
-<div class="w-2.5 h-2.5 rotate-45 ml-2" style="background-color: #084F3F;"></div>
+  <br><br><br>
 
+  <!-- About Us Section -->
+  <div class="relative w-full h-[670px] overflow-hidden">
+    <!-- Background Image -->
+    <img src="/images/bg5.jpg" alt="Team" class="w-full h-full object-cover">
+
+    <!-- Right-aligned Text Overlay with Gradient -->
+    <div class="absolute inset-0 bg-gradient-to-l from-[#9BBFB5] via-[#9BBFB5]/70 to-transparent flex items-center justify-end px-24">
+      <div class="max-w-md text-right mr-0">
+        <h2 class="text-3xl font-bold text-[#1a6a56] mb-4">ABOUT US</h2>
+        <p class="text-gray-800 leading-relaxed text-xl md:text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
   </div>
-</div><br><br><br>
-
-
- <!-- About Us Section -->
-<div class="relative w-full h-[670px] overflow-hidden">
-  <!-- Background Image -->
-  <img src="/images/bg5.jpg" alt="Team" class="w-full h-full object-cover">
-
-<!-- Right-aligned Text Overlay with Gradient -->
-<div class="absolute inset-0 bg-gradient-to-l from-[#9BBFB5] via-[#9BBFB5]/70 to-transparent flex items-center justify-end px-24">
-  <div class="max-w-md text-right mr-0">
-    <h2 class="text-3xl font-bold text-[#1a6a56] mb-4">ABOUT US</h2>
-    <p class="text-gray-800 leading-relaxed text-xl md:text-2xl">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-</div>
-</div>
-</div>
-</div>
 </section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Smooth scroll fallback
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    const aboutSection = document.querySelector("#about");
+    const aboutLink = document.querySelector("#about-link");
+    const homeLink = document.querySelector("#home-link");
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // ABOUT is visible — highlight ABOUT, remove HOME underline
+          aboutLink.classList.add("border-b-2", "border-white", "pb-1", "font-semibold");
+          homeLink.classList.remove("border-b-2", "border-white", "font-semibold");
+        } else {
+          // ABOUT is not visible — revert back to HOME underline
+          aboutLink.classList.remove("border-b-2", "border-white", "pb-1", "font-semibold");
+          homeLink.classList.add("border-b-2", "border-white", "font-semibold");
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    if (aboutSection) observer.observe(aboutSection);
+  });
+</script>
+
+
+
+
+
 
 
 
