@@ -250,10 +250,11 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 
   <!-- Text Content -->
   <div class="relative z-10 flex justify-end">
-    <p class="text-xl md:text-2xl text-gray-800 leading-relaxed font-medium max-w-4xl text-right mr-0 md:mr-20">
-      We operate based on the team's specialization, expertise, and knowledge, <br class="hidden md:block">
-      tailored to meet the specific requirements of each project within the company.
-    </p>
+  <p class="text-xl md:text-2xl text-[#084F3F] leading-relaxed font-medium max-w-4xl text-right mr-0 md:mr-20">
+  We operate based on the team's specialization, expertise, and knowledge, <br class="hidden md:block">
+  tailored to meet the specific requirements of each project within the company.
+</p>
+
   </div>
 </section>
 
@@ -282,7 +283,7 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 <!-- Team section -->
 <section class="bg-gradient-to-b from-[#9BBFB5] to-white py-16 px-4">
   <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Meet Our Team</h2>
+  <h2 class="text-3xl md:text-4xl font-bold mb-12 text-[#084F3F]">Meet Our Team</h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
 
