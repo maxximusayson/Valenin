@@ -88,9 +88,10 @@
 
 
 <!-- about us section -->
-<section id="about" class="bg-[#fff] py-20">
+<section id="about" class="bg-[#9BBFB5] py-20">
   <!-- Diamond with horizontal lines -->
-  <div class="flex justify-center items-center gap-8 px-20 py-6" style="background-color:rgb(255, 255, 255);">
+  <div class="flex justify-center items-center gap-8 px-20 py-6 bg-[#9BBFB5]">
+
 
     <!-- Left Line with Diamond -->
     <div class="flex items-center w-[40%]">
@@ -104,8 +105,9 @@
       <div class="w-2.5 h-2.5 rotate-45 ml-2" style="background-color: #084F3F;"></div>
     </div>
   </div>
+</section>
 
-  <br><br><br>
+
 
   <!-- About Us Section -->
   <div class="relative w-full h-[670px] overflow-hidden">
