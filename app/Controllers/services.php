@@ -6,6 +6,8 @@ class Services extends BaseController
 {
     public function index()
     {
-        return view('pages/services'); // No layout/header here
+        return view('pages/services', [
+            'title' => 'Valenin | Services'
+        ]);
     }
 }

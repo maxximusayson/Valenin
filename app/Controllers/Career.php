@@ -6,6 +6,8 @@ class Career extends BaseController
 {
     public function index()
     {
-        return view('pages/career'); 
+        return view('pages/career', [
+            'title' => 'Valenin | Career'
+        ]);
     }
 }

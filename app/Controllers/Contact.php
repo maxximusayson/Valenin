@@ -6,6 +6,8 @@ class Contact extends BaseController
 {
     public function index()
     {
-        return view('pages/contact'); // No layout/header here
+        return view('pages/contact', [
+            'title' => 'Valenin | Contact'
+        ]);
     }
 }

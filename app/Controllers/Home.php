@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('pages/home'); // ✅ include folder name
+        return view('pages/home', [
+            'title' => 'Valenin | Home'
+        ]);
     }
 }
