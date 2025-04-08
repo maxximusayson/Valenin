@@ -223,6 +223,74 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 
 
 
+<section class="bg-gradient-to-r from-[#9BBFB5] to-[#f3f4f6] py-16 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    <p class="text-lg md:text-xl text-gray-800 leading-relaxed">
+      We operate based on the team's specialization, expertise, knowledge, <br class="hidden md:block">
+      and the specific requirements of each project within the company.
+    </p>
+  </div>
+</section>
+<br><br><br>
+
+
+
+
+<!-- Team section -->
+
+
+
+<section class="bg-gradient-to-b from-[#9BBFB5] to-white py-16 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Meet Our Team</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+      <!-- Founder -->
+      <div class="flex flex-col items-center">
+        <img src="/images/team/founder.jpg" alt="Maychell Alcorin" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Maychell Alcorin</h3>
+        <p class="italic text-sm text-gray-600">Founder</p>
+      </div>
+
+      <!-- Member - Aina Mae Arroyo -->
+      <div class="flex flex-col items-center">
+        <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
+        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+      </div>
+
+      <!-- Member - Jenealle Mae Jimena -->
+      <div class="flex flex-col items-center">
+        <img src="/images/team/jenealle.jpg" alt="Jenealle Mae Jimena" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
+        <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
+      </div>
+
+      <!-- Duplicate blocks for grid balance -->
+      <div class="flex flex-col items-center">
+        <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
+        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/images/team/jenealle.jpg" alt="Jenealle Mae Jimena" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
+        <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img src="/images/team/aina.jpg" alt="Aina Mae Arroyo" class="w-48 h-64 object-cover rounded shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
+        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 </body>
 </html>
 
