@@ -13,10 +13,10 @@
       <div class="flex space-x-4">
         <?php
           $socials = [
-            ['icon' => 'fab fa-facebook-f', 'url' => '#'],
-            ['icon' => 'fab fa-instagram', 'url' => '#'],
-            ['icon' => 'fab fa-twitter', 'url' => '#'],
-            ['icon' => 'fab fa-tiktok', 'url' => '#'],
+            ['icon' => 'fab fa-facebook-f', 'url' => 'https://www.facebook.com/valenin.it.services'],
+            ['icon' => 'fab fa-instagram', 'url' => 'https://www.instagram.com/valenin.inc/'],
+            ['icon' => 'fab fa-youtube', 'url' => 'https://www.youtube.com/@valeninvoices'],
+            ['icon' => 'fab fa-tiktok', 'url' => 'https://www.tiktok.com/@valenin.voices'],
           ];
           foreach ($socials as $social):
         ?>
