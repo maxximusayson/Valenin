@@ -44,7 +44,10 @@
           <span class="bg-gradient-to-r from-green-400 to-emerald-600 text-transparent bg-clip-text font-bold">IT SOLUTIONS</span> FOR<br>
           <span class="bg-gradient-to-r from-green-400 to-emerald-600 text-transparent bg-clip-text font-bold">GROWING</span> BUSINESS
         </h1>
-        <a href="#" class="mt-6 inline-block bg-gradient-to-r from-[#084F3F] to-[#1B8D70] text-white px-6 py-3 rounded-lg font-semibold hover:scale-105 transition-transform">LEARN MORE</a>
+        <a href="#" class="mt-6 inline-block px-6 py-3 rounded-lg font-semibold text-white border-2 border-[#1B8D70] shadow-[0_0_10px_#1B8D70] hover:shadow-[0_0_20px_#1B8D70] transition-all duration-300">
+  LEARN MORE
+</a>
+
       </div>
     </div>
   </section>
