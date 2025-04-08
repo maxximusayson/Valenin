@@ -288,55 +288,78 @@ As our goal is to enhance operational efficiency, foster growth, and drive succe
 
       <!-- Founder -->
       <div class="flex flex-col items-center">
-      <img src="/images/Valenin/MaychellAlcorin.png" alt="Maychell Alcorin"
-     class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
-  <h3 class="mt-4 font-semibold text-lg">Maychell Alcorin</h3>
-  <p class="italic text-sm text-gray-600">Founder</p>
-</div>
+        <img src="/images/Valenin/MaychellAlcorin.png" alt="Maychell Alcorin"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <h3 class="mt-4 font-semibold text-lg">Maychell Alcorin</h3>
+        <p class="italic text-sm text-gray-600">Founder</p>
+      </div>
 
-
-     <!-- Member - Aina Mae Arroyo -->
-<div class="flex flex-col items-center mt-10">
-<img src="/images/Valenin/AinaMae.png" alt="Aina Mae Arroyo" class="w-48 h-48 object-cover rounded-full shadow-md">
-  <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
-  <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
-</div>
-
+      <!-- Member - Aina Mae Arroyo -->
+      <div class="flex flex-col items-center mt-10">
+        <img src="/images/Valenin/AinaMae.png" alt="Aina Mae Arroyo" class="w-48 h-48 object-cover rounded-full shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
+        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+      </div>
 
       <!-- Member - Jenealle Mae Jimena -->
       <div class="flex flex-col items-center">
-      <img src="/images/Valenin/JenealleMae.png" alt="JenealleMae"
-     class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <img src="/images/Valenin/JenealleMae.png" alt="Jenealle Mae"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
         <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
         <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
       </div>
 
-      <!-- Duplicate blocks for grid balance -->
+      <!-- Member - Karlo Estano -->
       <div class="flex flex-col items-center">
-      <img src="/images/Valenin/MaychellAlcorin.png" alt="Maychell Alcorin"
-     class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
-        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
-        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+        <img src="/images/Valenin/KarloEstano.png" alt="Karlo Estano"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <h3 class="mt-4 font-semibold text-lg">Karlo Estano</h3>
+        <p class="italic text-sm text-gray-600">Web Developer</p>
       </div>
 
-
-<div class="flex flex-col items-center mt-10">
-<img src="/images/Valenin/AinaMae.png" alt="Aina Mae Arroyo" class="w-48 h-48 object-cover rounded-full shadow-md">
-  <h3 class="mt-4 font-semibold text-lg">Jenealle Mae Jimena</h3>
-  <p class="italic text-sm text-gray-600">Executive Assistant &<br>UI/UX Designer</p>
-</div>
-
-
-      <div class="flex flex-col items-center">
-      <img src="/images/Valenin/MaychellAlcorin.png" alt="Maychell Alcorin"
-     class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
-
-        <h3 class="mt-4 font-semibold text-lg">Aina Mae Arroyo</h3>
-        <p class="italic text-sm text-gray-600">QA & Frontline Support</p>
+      <!-- Member - Mary Dorothy -->
+      <div class="flex flex-col items-center mt-10">
+        <img src="/images/Valenin/MaryDorothy.png" alt="Mary Dorothy" class="w-48 h-48 object-cover rounded-full shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Mary Dorothy Joy Taala</h3>
+        <p class="italic text-sm text-gray-600">DevOps</p>
       </div>
+
+      <!-- Member - Paolo Vien -->
+      <div class="flex flex-col items-center">
+        <img src="/images/Valenin/Paolo.png" alt="Paolo Vien"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <h3 class="mt-4 font-semibold text-lg">Paolo Vien Kier Patton</h3>
+        <p class="italic text-sm text-gray-600">Web Developer</p>
+      </div>
+
+      <!-- NEW Member 1 -->
+      <div class="flex flex-col items-center">
+        <img src="/images/Valenin/Vesanie.png" alt="Vesanie Marie Bernal"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <h3 class="mt-4 font-semibold text-lg">Vesanie Marie Bernal</h3>
+        <p class="italic text-sm text-gray-600">Quality Assurance</p>
+      </div>
+
+      <!-- NEW Member 2 -->
+      <div class="flex flex-col items-center mt-10">
+        <img src="/images/Valenin/Jose.png" alt="Jose Phernando Lamud"
+          class="w-48 h-48 object-cover rounded-full shadow-md">
+        <h3 class="mt-4 font-semibold text-lg">Jose Phernando Lamud</h3>
+        <p class="italic text-sm text-gray-600">System Support Analyst</p>
+      </div>
+
+      <!-- NEW Member 3 -->
+      <div class="flex flex-col items-center">
+        <img src="/images/Valenin/Jennifer.png" alt="Jennifer Sabado"
+          class="w-48 h-48 object-cover rounded-full shadow-md border-4 border-white" />
+        <h3 class="mt-4 font-semibold text-lg">Jennifer Sabado</h3>
+        <p class="italic text-sm text-gray-600">Q&A Developer</p>
+      </div>
+
     </div>
   </div>
 </section>
+
 
 <?= view('layout/footer') ?>
 
