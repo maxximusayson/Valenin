@@ -11,13 +11,12 @@
   <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="icon" type="image/png" href="<?= base_url('images/tab.png') ?>">
- 
+
 
 </head>
 <body class="font-['Rubik'] scroll-smooth">
 
 
-<html lang="en" class="scroll-smooth">
 
 <?php $current = service('uri')->getSegment(1); ?>
 
@@ -45,8 +44,7 @@
 
   </li>
   <li>
-  <a href="<?= base_url('/#about') ?>" id="about-link" class="hover:border-b-2 hover:border-white pb-1">ABOUT</a>
-
+  <a href="#about" id="about-link" class="hover:border-b-2 hover:border-white pb-1">ABOUT</a>
 
 </li>
 
