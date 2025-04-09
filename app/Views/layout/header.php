@@ -17,6 +17,7 @@
 <body class="font-['Rubik'] scroll-smooth">
 
 
+<html lang="en" class="scroll-smooth">
 
 <?php $current = service('uri')->getSegment(1); ?>
 
@@ -44,7 +45,8 @@
 
   </li>
   <li>
-  <a href="#about" id="about-link" class="hover:border-b-2 hover:border-white pb-1">ABOUT</a>
+  <a href="<?= base_url('/#about') ?>" id="about-link" class="hover:border-b-2 hover:border-white pb-1">ABOUT</a>
+
 
 </li>
 

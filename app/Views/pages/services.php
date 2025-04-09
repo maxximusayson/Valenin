@@ -1,5 +1,29 @@
 <?= $this->include('layout/header') ?>
+<!-- Loader -->
+<div id="loader" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#649D92] text-white 
+    opacity-100 transition-opacity duration-700 ease-in-out">
+    
+     <!-- Logo Image -->
+     <img src="<?= base_url('images/logo.png') ?>" alt="Valenin Logo" class="h-20 md:h-24 mb-6">
 
+    <!-- Spinner SVG -->
+    <svg class="animate-spin h-10 w-10 mt-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+        <path class="opacity-75" fill="currentColor"
+            d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+    </svg>
+</div>
+
+<script>
+    // Show loader for 5 seconds, then fade out
+    setTimeout(() => {
+        const loader = document.getElementById('loader');
+        loader.classList.add('opacity-0'); // triggers transition
+        setTimeout(() => {
+            loader.style.display = 'none';
+        }, 700); // match duration-700
+    }, 3000);
+</script>
 <body class="font-['Rubik'] min-h-screen">
     <div class="bg-gradient-to-b from-white to-green-100 h-lvh">
         <div class="text-center pt-24 pb-10">
