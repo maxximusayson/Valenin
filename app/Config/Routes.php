@@ -11,6 +11,9 @@ $routes->get('/services', 'Services::index');
 $routes->get('/contact', 'Contact::index');
 
 
+//message routes Contact US
+$routes->post('/contact/submit', 'Contact::submit');
+
 
 
 
